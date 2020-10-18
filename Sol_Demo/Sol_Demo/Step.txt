@@ -1,0 +1,17 @@
+﻿
+Step 1:
+Remove main root path from Index.razor and make new Page Route url. [check Source Code]
+
+from @page "/" to @page "/index"
+
+Step 2:
+Make a new layout for login and signup. Go to Shared folder and create LandingLayout.razor. [Check Source Code]
+	2.1 Make a Nested Layout Component for Login and SignUp, Create a LoginSignUpNestedLayout.razor Layout. [Check Source Code]
+
+Step 3:
+Create a _Import.razor file inside the Component folder and call LoginSignUpNestedLayout.razor page for Login and SignUp Components. [Check Source Code]  
+
+Step 4:
+Add LoginComponent.razor inside the Component folder. Make main root path url. [Check Source Code]
+
+Add SignUpComponent.razor inside the Component folder. [Check source Code]
